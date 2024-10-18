@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/admin-dashboard', function () {
     return view('admin_dashboard');
 });
+
+Route::get('/order', function () {
+    return view('order');
+});
+
+Route::get('/payment', function () {
+    return view('payment');
+});
