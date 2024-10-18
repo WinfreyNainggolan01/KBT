@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from demo.bootstrapdash.com/justdo/themes/vertical-default-light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Jun 2024 17:37:30 GMT -->
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>JustDo Admin</title>
-  <!-- plugins:css -->
   <link rel="stylesheet" href="{{ asset('vendor/assets/vendors/ti-icons/css/themify-icons.css')}}">
   <link rel="stylesheet" href="{{ asset('vendor/assets/vendors/css/vendor.bundle.base.css')}}">
-  <!-- endinject -->
-  <!-- Plugin css for this page -->
-  <!-- End plugin css for this page -->
-  <!-- inject:css -->
   <link rel="stylesheet" href="{{ asset('vendor/assets/css/vertical-layout-light/style.css')}}">
-  <!-- endinject -->
+
   <link rel="shortcut icon" href="{{ asset('vendor/assets/images/favicon.png')}}" />
   @vite('resources/css/app.css')
 </head>
 <body>
+    
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo me-5" href="index.html"><img src="https://demo.bootstrapdash.com/justdo/themes/assets/images/logo.svg" class="me-2" alt="logo"/></a>
